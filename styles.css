@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+
+/* 
+nova cut 
+*/
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,700&family=Hurricane&family=Krona+One&family=Montserrat&family=Nova+Cut&family=Open+Sans:ital,wght@0,300;1,300&family=Raleway:wght@100&display=swap');
+
+/* alegreya */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Hurricane&family=Krona+One&family=Montserrat&family=Nova+Cut&family=Open+Sans:ital,wght@0,300;1,300&family=Raleway:wght@100&display=swap');
+
+/* playfair */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Hurricane&family=Krona+One&family=Montserrat&family=Nova+Cut&family=Open+Sans:ital,wght@0,300;1,300&family=Playfair+Display&family=Raleway:wght@100&display=swap');
+
+/* krona one */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Hurricane&family=Krona+One&family=Montserrat&family=Nova+Cut&family=Open+Sans:ital,wght@0,300;1,300&family=Playfair+Display&family=Raleway:wght@100&display=swap');
+
+/* merryweather */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Hurricane&family=Krona+One&family=Merriweather:wght@300&family=Montserrat&family=Nova+Cut&family=Open+Sans:ital,wght@0,300;1,300&family=Playfair+Display&family=Raleway:wght@100&display=swap');
+
+:root {
+    --cor-de-fundo: #000000;
+    --cor-secundaria: #0c0a2e;
+    --cor-terciaria: #2a0a0a;
+    --cor-quarternaria: #e51c1c;
+    --cor-dourada: #b0931b;
+    --cor-fonteprincipal: #CBC8C8;
+    --cor-botao: #CBC8C8;
+    --cor-cinza: #717171;
+
+    --fonte-principal: 'Nova Cut', cursive;
+    --fonte-secundaria: 'Cormorant Garamond', serif;
+    --fonte-alegreya: 'Alegreya', serif;
+    --fonte-playfair: 'Playfair Display', serif;
+    --fonte-kronaone: 'Krona One', sans-serif;
+    --fonte-marryweather: 'Merriweather', serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-size: 1rem;
+    font-weight: 400;color: var(--cor-fonteprincipal);
+}
+
+.principal {
+    /* é melhor usar background image quando a imagem for decorativa apenas  */
+    background-image: url(assets/Design\ sem\ nome.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    /* este display grid e grid template columns serve para dividir a página web para organizar o site */
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.container__botao {
+    background-color: var(--cor-cinza);
+    border-radius: 2px;
+    padding: 1em;
+    color: var(--cor-botao);
+    /* padding acompanha o tamanho da fonte*/
+    display: block;
+    text-decoration: none;
+    margin: 1em;
+}
+
+.container__botao__secundario {
+    background-color: transparent;
+    border-radius: 2px;
+    color: var(--cor-botao);
+    border: 1.5px solid var(--cor-fonteprincipal);
+    display: block;
+    text-decoration: none;
+    padding: 1em;
+    margin: 1em;
+}
+
+.container__caixa {
+    font-size: 1.25rem;
+    margin: 1em 1em 1em;
+}
+
+.container__imagem {
+    width: 350px;
+    align-items: center;
+    margin: 1.5em;
+}
+
+.secundario__imagem {
+    width: 80%;
+    max-width: 25rem;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: rem;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+
+.container__aviso {
+    color: var(--cor-fonteprincipal);
+    font-size: 0.9rem;
+    color: var(--cor-cinza)
+}
+
+.secundario__botao {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container__descricao {
+    padding: 2em;
+}
+
+.container__secundario {
+    font-weight: 700;
+    color: var(--cor-fonteprincipal);
+    font-family: var(--fonte-marryweather);
+    display: grid;
+}
