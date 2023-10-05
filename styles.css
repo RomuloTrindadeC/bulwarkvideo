@@ -23,8 +23,8 @@ nova cut
     --cor-terciaria: #2a0a0a;
     --cor-quarternaria: #e51c1c;
     --cor-dourada: #b0931b;
-    --cor-fonteprincipal: #CBC8C8;
-    --cor-botao: #CBC8C8;
+    --cor-fonteprincipal: #d0d0d0;
+    --cor-botao: #d0d0d0;
     --cor-cinza: #717171;
 
     --fonte-principal: 'Nova Cut', cursive;
@@ -43,7 +43,8 @@ nova cut
 body {
     background-color: var(--cor-de-fundo);
     font-size: 1rem;
-    font-weight: 400;color: var(--cor-fonteprincipal);
+    font-weight: 400;
+    color: var(--cor-fonteprincipal);
 }
 
 .principal {
@@ -59,7 +60,7 @@ body {
     height: 100vh;
     /* este display grid e grid template columns serve para dividir a página web para organizar o site */
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 45% 65%;
 }
 
 .container__botao {
@@ -85,8 +86,9 @@ body {
 }
 
 .container__caixa {
-    font-size: 1.25rem;
-    margin: 1em 1em 1em;
+    /* alterar o tamanho da fonte do projeto */
+    font-size: 1.4rem;
+    margin: 1.6em;
 }
 
 .container__imagem {
@@ -96,25 +98,29 @@ body {
 }
 
 .secundario__imagem {
-    width: 80%;
+    width: 97%;
     max-width: 25rem;
 }
 
-.secundario {
-    align-items: center;
-    margin: 0 10em;
+.descricao__titulo {
+    font-weight: 350;
+    font-size: 2.3rem;
+    color: var(--cor-fonteprincipal);
+    margin-bottom: 0.1em;
+    font-family: var(--fonte-secundaria);
 }
 
-.descricao__titulo {
-    font-weight: 700;
-    font-size: rem;
-    color: var(--branco-principal);
+.descricao__texto {
+    font-weight: 250;
+    font-size: 1.7rem;
+    color: var(--cor-fonteprincipal);
     margin-bottom: 0.1em;
+    font-family: var(--fonte-secundaria);
 }
 
 .container__aviso {
     color: var(--cor-fonteprincipal);
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     color: var(--cor-cinza)
 }
 
@@ -125,11 +131,12 @@ body {
 
 .container__descricao {
     padding: 2em;
+    margin: 0.5em 0.1em 0.5em;
 }
 
-.container__secundario {
-    font-weight: 700;
-    color: var(--cor-fonteprincipal);
-    font-family: var(--fonte-marryweather);
-    display: grid;
+.secundario {
+    margin: 0 10em;
+    align-items: center;
 }
+
+
