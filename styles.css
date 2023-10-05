@@ -103,7 +103,7 @@ body {
 }
 
 .descricao__titulo {
-    font-weight: 100;
+    font-weight: 700;
     font-size: 2.3rem;
     color: var(--cor-fonteprincipal);
     margin-bottom: 0.1em;
@@ -111,7 +111,7 @@ body {
 }
 
 .descricao__texto {
-    font-weight: 100;
+    font-weight: 700;
     font-size: 1.7rem;
     color: var(--cor-fonteprincipal);
     margin-bottom: 0.1em;
