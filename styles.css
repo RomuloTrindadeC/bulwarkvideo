@@ -202,3 +202,11 @@ body {
     list-style: none;
     color: var(--cor-cinza);
 }
+
+@media screen and (max-width: 450px){
+    .container{
+        align-self: center;
+        display: flex;
+        width: 350px;
+    }
+}
