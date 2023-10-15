@@ -206,7 +206,37 @@ body {
 @media screen and (max-width: 450px){
     .container{
         align-self: center;
-        display: flex;
-        width: 350px;
+        display: block;
+        width: 25em;
+        padding: 0.2em;
+        background-image: none;
+    }
+
+    .container__imagem {
+        padding: 1.2em;
+        width: 45vw;
+    }
+
+    .container__caixa {
+        margin: 2em 2em;
+    }
+
+    .secundario {
+        margin: 0;
+        text-align: center;
+    }
+
+    .dimensionamento {
+        width: 75vw;
+    }
+
+    .dispositivos__lista {
+        display: block;
+    }
+
+    .rodape__lista {
+        display: block;
+        padding: 2em 1em 6em 1em;
     }
 }
+
